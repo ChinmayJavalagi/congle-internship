@@ -1,6 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.congle_internship">
-   <application
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
         android:label="congle_internship"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
